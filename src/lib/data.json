@@ -113,6 +113,12 @@
     }
   ],
   "clientWork": [
+     {
+      "title": "Abinash Dash's Portfolio",
+      "description": "Portfolio for full-stack developer with PM experience.",
+      "technologies": ["NextJS", "Tailwind CSS", "Typescript", "Motion"],
+      "url": "https://abinash-dash.vercel.app"
+    },
     {
       "title": "Dibyajyoti Mahuri's Portfolio",
       "description": "Portfolio for full-stack developer, following minimalist design.",
