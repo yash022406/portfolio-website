@@ -275,6 +275,13 @@
   ],
   "projects": [
     {
+      "title": "Rocket Lab",
+      "description": "A platform for building and launching rockets.",
+      "technologies": ["NextJS", "Tailwind CSS", "Neon DB"],
+      "demo": "https://rocket-lab-nu.vercel.app/",
+      "repo": "https://github.com/AshutoshDash1999/rocket-lab"
+    },
+    {
       "title": "Get That API",
       "description": "A free API testing browser extension to test your API with GET, POST, PUT, PATCH, DELETE methods.",
       "technologies": [
