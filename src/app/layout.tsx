@@ -22,7 +22,7 @@ const { personal, socialLinks } = data;
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ashutoshdash.in";
 const coverImageUrl = `${siteUrl}/cover.webp`;
 const keywords = [
-  "Ashutosh Dash",
+  "Yash Sain",
   "Frontend Developer",
   "React Developer",
   "Next.js Developer",

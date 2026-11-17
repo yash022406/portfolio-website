@@ -1,8 +1,8 @@
 {
   "personal": {
-    "name": "Ashutosh Dash",
-    "title": "Frontend Developer | React & Next.js",
-    "bio": "Frontend engineer building fast, scalable web apps with React, Next.js & TypeScript. Skilled in modern UI frameworks and passionate about crafting clean interfaces."
+    "name": "Yash Sain",
+    "title": "Frontend Developer | React.js & Next.js",
+    "bio": "Frontend engineer building fast, scalable web apps with React, Next.js & JavaScript. Skilled in modern UI frameworks and passionate about crafting clean interfaces."
   },
   "navbar": {
     "logo": "/logo.png",
@@ -113,7 +113,7 @@
     }
   ],
   "clientWork": [
-     {
+    {
       "title": "Abinash Dash's Portfolio",
       "description": "Portfolio for full-stack developer with PM experience.",
       "technologies": ["NextJS", "Tailwind CSS", "Typescript", "Motion"],
@@ -188,139 +188,100 @@
   "techSkills": [
     { "name": "React", "category": "Frontend" },
     { "name": "Next.js", "category": "Frontend" },
-    { "name": "React Native", "category": "Frontend" },
     { "name": "TypeScript", "category": "Frontend" },
     { "name": "JavaScript", "category": "Frontend" },
     { "name": "HTML", "category": "Frontend" },
     { "name": "CSS", "category": "Frontend" },
-    { "name": "Mantine UI", "category": "Frontend" },
-    { "name": "Ant Design", "category": "Frontend" },
+    { "name": "SCSS", "category": "Frontend" },
     { "name": "Material UI", "category": "Frontend" },
-    { "name": "Chakra UI", "category": "Frontend" },
+    { "name": "ShadCN UI", "category": "Frontend" },
     { "name": "Tailwind CSS", "category": "Frontend" },
     { "name": "Bootstrap", "category": "Frontend" },
-    { "name": "Node.js", "category": "Backend" },
+    { "name": "Python", "category": "Backend" },
+    { "name": "SQL", "category": "Backend" },
     { "name": "Firebase", "category": "Backend" },
     { "name": "Git", "category": "Tools" },
     { "name": "GitHub", "category": "Tools" }
   ],
   "experience": [
     {
-      "company": "Fixity LearningPad",
-      "url": "https://learningpadedu.com",
-      "location": "Hyderabad",
-      "role": "ReactJS Developer",
-      "duration": "May 2024 - Present",
+      "company": "BeyondIRR",
+      "url": "https://beyondirr.com/",
+      "location": "Remote",
+      "role": "Software Development Engineer",
+      "duration": "July 2024 - Present",
       "highlights": [
-        "Led frontend for an AI learning platform at 5K+ DAU, owning product cycles end-to-end from design handoff to production in 2–5 days with React, Next.js, and Mantine.",
-        "Shipped a streaming AI chatbot and a suite of AI study tools adopted across 5+ products, lifting user session time by 30% and daily engagement by 20%.",
-        "Built an OMR + AI evaluation system that cut grading turnaround by 80% and unlocked bulk processing — eliminating manual per-student review."
+        "Maintained a SAAS + multiple Enterprise plateforms with 700k+ users.",
+        "Collaborated directly with clients to gather technical requirements, prioritize frontend feature development, and troubleshoot critical production issues.",
+        "Managed multiple client codebases and maintained CI/CD pipelines, executing seamless code migrations.",
+        "Reviewed and approved production-level pull requests, enforcing coding standards and best practices to reduce post-deployment bugs and improve code quality across projects.",
+        "Led frontend sprint planning and capacity estimation, coordinating workload distribution across the team and achieving a 100% on-time delivery rate across Agile development cycles.",
+        "Developed and implemented production-level frontend features using React.js and Next.js, maintaining security level issues and solving critical vulnerabilities.",
+        "Built responsive and reusable user interface components using Material UI and Tailwind CSS, following modern frontend development practices."
       ],
       "technologies": [
+        "Next.js",
         "React",
-        "Next.js",
-        "TypeScript",
-        "Mantine",
-        "Ant Design",
-        "Shadcn UI",
-        "Playwright",
-        "Firebase",
-        "i18n",
-        "PostHog"
-      ]
-    },
-    {
-      "company": "Badho",
-      "url": "https://badho.in",
-      "location": "Gurgaon",
-      "role": "Full Stack Developer",
-      "duration": "October 2023 - April 2024",
-      "highlights": [
-        "Built a standalone B2B analytics dashboard as a separate product — Next.js, Ant Design, and GraphQL — surfacing product-usage and business metrics for internal teams.",
-        "Shipped 10+ React Native mobile features end-to-end against a Node.js / GraphQL / Hasura backend, owning UI through to the data layer.",
-        "Instrumented Mixpanel product analytics that drove data-backed prioritization across 25+ features."
-      ],
-      "technologies": [
-        "Next.js",
-        "React Native",
-        "TypeScript",
-        "Ant Design",
-        "GraphQL",
-        "Hasura",
-        "Node.js",
-        "Mixpanel"
-      ]
-    },
-    {
-      "company": "Bookingjini",
-      "url": "https://bookingjini.com",
-      "location": "Bhubaneswar",
-      "role": "Frontend Developer",
-      "duration": "February 2023 - September 2023",
-      "highlights": [
-        "Built a QR-code restaurant ordering system (React, Tailwind) that cut manual staff workload by 50%.",
-        "Rebuilt the hotel booking engine on a modular React architecture, cutting new booking-flow shipping time by 25%.",
-        "Maintained the open-source Bookingjini Icons Pack, earning 40+ GitHub stars and reviewing 150+ PRs."
-      ],
-      "technologies": [
-        "React",
-        "Next.js",
+        "JavaScript",
         "Material UI",
-        "Tailwind",
-        "Git",
-        "Mantine UI",
-        "SCSS"
+        "Python",
+        "Django Rest Framework",
+        "Tailwind CSS"
       ]
+    },
+    {
+      "company": "SGV Sfottech",
+
+      "location": "Jaipur",
+      "role": "Frontend Developer Intern",
+      "duration": "Jan 2024 - April 2024",
+      "highlights": [
+        "Developed a responsive property rental web application using React.js and Tailwind CSS with support for three languages.",
+        "Integrated REST APIs and interactive maps for property discovery and real-time information retrieval.",
+        "Implemented authentication and global state management using React Context API; tested APIs using Postman."
+      ],
+      "technologies": ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap"]
     }
   ],
   "projects": [
     {
-      "title": "Rocket Lab",
-      "description": "A platform for building and launching rockets.",
-      "technologies": ["NextJS", "Tailwind CSS", "Neon DB"],
-      "demo": "https://rocket-lab-nu.vercel.app/",
-      "repo": "https://github.com/AshutoshDash1999/rocket-lab"
+      "title": "UI/UX Genie",
+      "description": "An AI platform for building UI/UX web/app designs.",
+      "technologies": [
+        "NextJS",
+        "Shadcn UI",
+        "TypeScript",
+        "Tailwind CSS",
+        "Neon DB"
+      ],
+      "demo": "https://uiux-genie.vercel.app/",
+      "repo": "https://github.com/yash022406/uiux-genie"
     },
     {
-      "title": "Get That API",
-      "description": "A free API testing browser extension to test your API with GET, POST, PUT, PATCH, DELETE methods.",
+      "title": "Gift Manager",
+      "description": "An application on which one can schedule live events, connect with people, send invites on their mail, and share virtual gifts/money.",
       "technologies": [
+        "React",
+        "Next.js",
+        "Firebase",
         "HTML",
         "CSS",
-        "JavaScript",
-        "React",
-        "Chrome Extension"
+        "JavaScript"
       ],
-      "demo": "https://chrome.google.com/webstore/detail/get-that-api/dogjkacjoihbjjhmdnpoidblknfaocao",
-      "repo": "https://github.com/AshutoshDash1999/get-that-api-browser-extension"
+      "demo": "https://gift-manager.vercel.app/dashboard",
+      "repo": "https://github.com/yash022406/gift-manager"
     },
     {
-      "title": "Nextjs Mantine Boilerplate",
-      "description": "A modern, production-ready boilerplate for building web applications with Next.js 16, React 19, and Mantine UI v8.",
-      "technologies": ["NextJS", "Mantine UI", "Typescript", "Vercel"],
-      "demo": "https://nextjs-mantine-boilerplate.vercel.app/",
-      "repo": "https://github.com/AshutoshDash1999/nextjs-mantine-boilerplate"
-    },
-    {
-      "title": "LearningPad API Client Example",
-      "description": "An example repo for how to use the LearningPad API in a frontend application.",
-      "technologies": ["NextJS", "Shadcn UI", "Typescript"],
-      "demo": "https://learningpad-api-client.netlify.app",
-      "repo": "https://github.com/AshutoshDash1999/learningpad-api-client-example"
-    },
-    {
-      "title": "GPT Lawyer",
-      "description": "An AI-powered legal assistant specializing exclusively in Indian laws, legal matters, and legal procedures. Get accurate information about Indian Acts, Statutes, Regulations, case law, and legal procedures through an intuitive chat interface.",
-      "technologies": ["NextJS", "Openrouter", "Typescript", "GCP"],
-      "demo": "https://gpt-lawyer.netlify.app",
-      "repo": "https://github.com/AshutoshDash1999/ugc-agentic-lawyer-frontend"
-    },
-    {
-      "title": "Shape Box Creator",
-      "description": "A visual editor for designing unconventional UI blocks with polygon clip-paths. Drag points on a canvas to shape a box, then copy out the generated CSS clip-path or SVG markup.",
-      "technologies": ["NextJS", "Typescript", "Tailwind CSS", "Shadcn UI"],
-      "demo": "https://shape-box-creator.vercel.app/",
-      "repo": "https://github.com/AshutoshDash1999/shape-box-creator"
+      "title": "Covid-19 Tracker",
+      "description": "A react based web application allows us to track the covid 19 data all over the world.",
+      "technologies": [
+        "React.js",
+        "Material UI",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML"
+      ],
+      "repo": "https://github.com/yash022406/COVID-19_Tracker"
     }
   ],
   "freelance": {
@@ -350,22 +311,17 @@
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/ashutoshdash1999",
+      "url": "https://github.com/yash022406",
       "icon": "github"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/in/ashutoshdash1999",
+      "url": "https://www.linkedin.com/in/yash-sain-554a63208/",
       "icon": "linkedin"
     },
     {
-      "platform": "Twitter",
-      "url": "https://x.com/ashutoshdash99",
-      "icon": "twitter"
-    },
-    {
       "platform": "Email",
-      "url": "mailto:dashashutosh1999@gmail.com",
+      "url": "mailto:yash.sain.twofour06@gmail.com",
       "icon": "mail"
     }
   ],

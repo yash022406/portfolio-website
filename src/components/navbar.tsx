@@ -100,7 +100,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <Image
                 src={navbar.logo}
-                alt="Ashutosh Dash Logo"
+                alt="Yash Sain Logo"
                 width={100}
                 height={100}
                 priority

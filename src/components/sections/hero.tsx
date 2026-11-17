@@ -181,7 +181,7 @@ export default function Hero() {
             variants={resumeLinkVariants}
           >
             <Link
-              href="/Ashutosh_Dash_Frontend_Dev.pdf"
+              href="https://drive.google.com/file/d/1IQBpTOcWvOJAXBd76AsFZcqc3i6gTv1N/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 transition-colors group"
