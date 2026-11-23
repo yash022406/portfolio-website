@@ -26,10 +26,11 @@ export async function fetchInsight(shortId: string): Promise<Insight> {
   const base = process.env.POSTHOG_HOST;
   const projectId = process.env.POSTHOG_PROJECT_ID;
   const apiKey = process.env.POSTHOG_API_KEY;
+  // Analytics is optional: without credentials (local builds, forks, preview
+  // deploys) return "no data" so the dashboard shows empty states instead of
+  // every stats query throwing during prerender.
   if (!base || !projectId || !apiKey) {
-    throw new Error(
-      "Missing PostHog env vars (POSTHOG_HOST, POSTHOG_PROJECT_ID, POSTHOG_API_KEY)",
-    );
+    return null;
   }
 
   const res = await fetch(

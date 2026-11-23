@@ -37,15 +37,6 @@ const projectCards = [
   { thumb: "bg-chart-3", tags: ["bg-chart-4", "bg-chart-9", "bg-chart-1"] },
 ];
 
-const reviewAvatars = [
-  "bg-chart-1",
-  "bg-chart-5",
-  "bg-chart-8",
-  "bg-chart-2",
-  "bg-chart-9",
-  "bg-chart-6",
-];
-
 export default function Loading() {
   return (
     <div>
@@ -164,30 +155,6 @@ export default function Loading() {
                 <Skeleton className="h-4 w-full bg-background" />
                 <Skeleton className="h-4 w-4/6 bg-background" />
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Reviews skeleton */}
-      <section className="px-6 md:px-12 py-16 md:py-24">
-        <Skeleton className="h-9 w-32 mb-10 bg-chart-2" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {reviewAvatars.map((avatar, i) => (
-            <div
-              key={`review-${i}`}
-              className="border-2 border-border rounded-base p-5 bg-secondary-background space-y-3"
-            >
-              <div className="flex items-center justify-between gap-3">
-                <div className="flex-1 space-y-2">
-                  <Skeleton className="h-5 w-2/3" />
-                  <Skeleton className="h-4 w-1/3" />
-                </div>
-                <Skeleton className={`size-10 rounded-base ${avatar}`} />
-              </div>
-              <Skeleton className="h-4 w-full" />
-              <Skeleton className="h-4 w-5/6" />
-              <Skeleton className="h-4 w-4/6" />
             </div>
           ))}
         </div>
