@@ -35,6 +35,10 @@
   --status-good: oklch(75% 0.19 155);
   --status-warn: oklch(86% 0.17 90);
   --status-bad: oklch(65% 0.23 27);
+  /* Photography band — deep forest "gallery wall" that echoes the foliage in
+     the photos and lets them pop; cream text sits on it in both themes. */
+  --photography: oklch(34% 0.055 150);
+  --photography-foreground: oklch(96% 0.025 95);
 }
 
 .dark {
@@ -62,6 +66,8 @@
   --status-good: oklch(70% 0.18 155);
   --status-warn: oklch(80% 0.17 90);
   --status-bad: oklch(70% 0.22 27);
+  --photography: oklch(29% 0.05 150);
+  --photography-foreground: oklch(96% 0.025 95);
 }
 
 @theme inline {
@@ -86,6 +92,8 @@
   --color-status-good: var(--status-good);
   --color-status-warn: var(--status-warn);
   --color-status-bad: var(--status-bad);
+  --color-photography: var(--photography);
+  --color-photography-foreground: var(--photography-foreground);
 
   --spacing-boxShadowX: 4px;
   --spacing-boxShadowY: 4px;

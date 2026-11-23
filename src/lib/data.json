@@ -58,7 +58,6 @@
     },
     {
       "company": "SGV Sfottech",
-
       "location": "Jaipur",
       "role": "Frontend Developer Intern",
       "duration": "Jan 2024 - April 2024",
@@ -153,6 +152,32 @@
         "title": "How do you ensure code quality and maintainability?",
         "icon": "star",
         "content": "I review and approve production pull requests and enforce coding standards and best practices, which has reduced post-deployment bugs. I keep code type-safe with TypeScript and build reusable, component-based UIs. I also maintain CI/CD pipelines across several client codebases, which improved deployment reliability by 7% and made migrations smoother."
+      }
+    ]
+  },
+  "photography": {
+    "title": "Through my lens",
+    "subtitle": "When I'm not writing code, I'm usually out with a camera chasing light, birds and mountains.",
+    "instagram": {
+      "handle": "@slowwshutter",
+      "url": "https://www.instagram.com/slowwshutter/"
+    },
+    "photos": [
+      {
+        "src": "/photography/pigeon.webp",
+        "alt": "A grey pigeon perched on a branch, framed by blurred green leaves"
+      },
+      {
+        "src": "/photography/squirrel.webp",
+        "alt": "A palm squirrel resting on a broken tree branch against sunlit green foliage"
+      },
+      {
+        "src": "/photography/ferris-wheel.webp",
+        "alt": "A giant Ferris wheel with ornate cabins against a clear blue sky"
+      },
+      {
+        "src": "/photography/himalayas.webp",
+        "alt": "Snow-capped Himalayan peaks rising above dark ridges and drifting clouds"
       }
     ]
   }
