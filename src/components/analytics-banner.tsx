@@ -1,11 +1,11 @@
 "use client";
 
-import { IconFileAnalyticsFilled } from "@tabler/icons-react";
+import { IconSunFilled } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 
-const STORAGE_KEY = "portfolio-analytics-acknowledged";
+const STORAGE_KEY = "portfolio-greeting-dismissed";
 
 export function AnalyticsBanner() {
   const [show, setShow] = useState(false);
@@ -28,14 +28,13 @@ export function AnalyticsBanner() {
       className="fixed bottom-10 left-0 right-0 z-50 md:left-1/2 md:max-w-2xl md:-translate-x-1/2 bg-chart-3 items-center [&>svg]:size-6"
       variant="default"
     >
-      <IconFileAnalyticsFilled aria-hidden />
+      <IconSunFilled aria-hidden />
       <AlertDescription className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
         <span className="text-muted-foreground text-sm">
-          Just a heads up - this site uses a bit of third-party analytics to see
-          how it's used. Nothing fancy.
+          Hey there, thanks for stopping by! Hope you're having a great day.
         </span>
         <Button size="sm" className="shrink-0 font-normal" onClick={handleOk}>
-          Ok
+          Thanks!
         </Button>
       </AlertDescription>
     </Alert>
