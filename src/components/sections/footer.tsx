@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="px-6 md:px-12">
         <div className="text-center text-foreground">
           <p className="text-base md:text-base">
-            © {new Date().getFullYear()} Ashutosh Dash. All rights reserved.
+            © {new Date().getFullYear()} Yash Sain. All rights reserved.
           </p>
         </div>
       </div>

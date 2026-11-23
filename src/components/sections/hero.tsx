@@ -181,7 +181,7 @@ export default function Hero() {
             variants={resumeLinkVariants}
           >
             <Link
-              href="https://drive.google.com/file/d/1IQBpTOcWvOJAXBd76AsFZcqc3i6gTv1N/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1wD52EyLE6GxJG0HtOYUYBVqmtga5yLk4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 transition-colors group"

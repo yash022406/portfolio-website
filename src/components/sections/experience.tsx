@@ -14,7 +14,7 @@ export default function Experience() {
       className="px-6 md:px-12 py-16 md:py-24 bg-chart-2 border-y-4 border-border"
     >
       <motion.h2
-        className="text-3xl md:text-4xl font-heading mb-8 md:mb-12"
+        className="text-3xl md:text-4xl font-heading mb-8 md:mb-12 text-main-foreground"
         initial={{ opacity: 0, y: 30, scale: 0.95 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-100px" }}

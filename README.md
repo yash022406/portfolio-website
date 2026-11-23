@@ -1,4 +1,4 @@
-# Ashutosh Dash Portfolio
+# Yash Sain Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/563c536a-4370-41c8-97c5-377ef11284e6/deploy-status)](https://app.netlify.com/projects/ashutoshdash/deploys)
 
@@ -42,16 +42,19 @@
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/AshutoshDash1999/ashutosh-dash-portfolio.git
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -81,5 +84,5 @@ npm run format
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/ashutoshdash1999">Ashutosh Dash</a>
+  Built with ❤️ by <a href="https://github.com/ashutoshdash1999">Yash Sain</a>
 </p>

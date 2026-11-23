@@ -51,9 +51,9 @@ const vitalsConfig = {
 type VitalConfig = (typeof vitalsConfig)[keyof typeof vitalsConfig];
 
 function getScoreColor(value: number, config: VitalConfig): string {
-  if (value <= config.good) return "bg-chart-2"; // Green
-  if (value <= config.needsImprovement) return "bg-chart-3"; // Yellow
-  return "bg-chart-4"; // Red
+  if (value <= config.good) return "bg-status-good";
+  if (value <= config.needsImprovement) return "bg-status-warn";
+  return "bg-status-bad";
 }
 
 function getScoreLabel(value: number, config: VitalConfig): string {

@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { Link } from "next-view-transitions";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState, useSyncExternalStore } from "react";
 import { FirstLoadContext } from "@/components/layout/first-load-animation";
 import { Button } from "@/components/ui/button";
 import {
@@ -47,9 +47,22 @@ const themeIconVariants = {
 
 const themeIconTransition = { duration: 0.15, ease: "easeOut" } as const;
 
+const noopSubscribe = () => () => {};
+
+// false during SSR and hydration, true after — avoids theme-dependent
+// markup mismatching between server and client.
+function useIsMounted(): boolean {
+  return useSyncExternalStore(
+    noopSubscribe,
+    () => true,
+    () => false,
+  );
+}
+
 export default function Navbar() {
   const { navbar } = data;
-  const { setTheme, theme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
+  const mounted = useIsMounted();
   const [isScrolled, setIsScrolled] = useState(false);
   const { trackEvent } = useTrackEvent();
   const firstLoadComplete = useContext(FirstLoadContext);
@@ -69,7 +82,7 @@ export default function Navbar() {
   };
 
   const handleThemeToggle = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
+    const newTheme = resolvedTheme === "dark" ? "light" : "dark";
     setTheme(newTheme);
     trackEvent("theme_toggle_click", { theme: newTheme });
   };
@@ -156,7 +169,7 @@ export default function Navbar() {
               className="relative overflow-hidden cursor-pointer size-10"
             >
               <AnimatePresence mode="sync" initial={false}>
-                {theme === "dark" ? (
+                {!mounted ? null : resolvedTheme === "dark" ? (
                   <motion.div
                     key="sun"
                     initial={themeIconVariants.initial}
@@ -250,7 +263,7 @@ export default function Navbar() {
                   aria-label="Toggle dark mode"
                 >
                   <AnimatePresence mode="sync" initial={false}>
-                    {theme === "dark" ? (
+                    {!mounted ? null : resolvedTheme === "dark" ? (
                       <motion.div
                         key="sun-mobile"
                         initial={themeIconVariants.initial}

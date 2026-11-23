@@ -7,184 +7,11 @@
   "navbar": {
     "logo": "/logo.png",
     "links": [
-      { "label": "Insights", "href": "/insights" },
-      { "label": "Open Source Contributions", "href": "/open-source" },
-      { "label": "Collaborations", "href": "/collaborations" }
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "FAQs", "href": "#faqs" }
     ]
   },
-  "openSourceContributions": [
-    {
-      "repo": "Mantine",
-      "org": "mantine-ui",
-      "url": "https://github.com/mantinedev/mantine",
-      "description": "Added boilerplate template with Next.js 15, React 19, Mantine UI v8, and TypeScript for building dashboards and internal tools. Boilerplate for Tanstack Query, i18n, localization, and more.",
-      "technologies": ["Markdown", "Git", "GitHub"],
-      "issueUrl": "https://github.com/mantinedev/mantine/issues/8563#event-22153333473"
-    },
-    {
-      "repo": "DevProof",
-      "org": "dev-proof-portfolio-open-source-search",
-      "url": "https://github.com/dhruv0206/dev-proof-portfolio-open-source-search",
-      "description": "Added PR and issue template for new issues or PRs.",
-      "technologies": ["Next.js", "React", "TypeScript", "Mantine UI"],
-      "issueUrl": "https://github.com/dhruv0206/dev-proof-portfolio-open-source-search/issues/2#event-21951002177"
-    },
-    {
-      "repo": "Dinam",
-      "org": "AshutoshDash1999",
-      "url": "https://github.com/AshutoshDash1999/dinam",
-      "description": "Managing the repo, assigning tasks, and doing code reviews.",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Vite",
-        "Manifest V3",
-        "Chrome Extension"
-      ],
-      "issueUrl": "https://github.com/AshutoshDash1999/dinam/pulls?q=is%3Apr+is%3Aclosed"
-    },
-    {
-      "repo": "TabTwin",
-      "org": "itzzavdhesh",
-      "url": "https://github.com/itzzavdhesh/TabTwin",
-      "description": "Added AGENTS.md file to provide coding agents with project context. Installed relevant skills to increase AI agent capabilities for the codebase.",
-      "technologies": ["Markdown", "Git"],
-      "issueUrl": "https://github.com/itzzavdhesh/TabTwin/issues/50",
-      "prUrl": "https://github.com/itzzavdhesh/TabTwin/pull/72"
-    },
-    {
-      "repo": "MergeShip",
-      "org": "Coder-s-OG-s",
-      "url": "https://github.com/Coder-s-OG-s/MergeShip",
-      "description": "Integrated PostHog analytics to track user interactions across the application. Updated Content Security Policy to include PostHog tracking URLs and configured event capturing across multiple components.",
-      "technologies": ["PostHog", "React", "TypeScript"],
-      "issueUrl": "https://github.com/Coder-s-OG-s/MergeShip/issues/388",
-      "prUrl": "https://github.com/Coder-s-OG-s/MergeShip/pull/705"
-    },
-    {
-      "repo": "File-Sharing-System",
-      "org": "imanchalsingh",
-      "url": "https://github.com/imanchalsingh/File-Sharing-System",
-      "description": "Set up Husky and commitlint to enforce conventional commit standards. Added commit-msg hook validation and updated CONTRIBUTING.md with commit guidelines.",
-      "technologies": ["Git", "Husky", "Commitlint", "Markdown"],
-      "issueUrl": "https://github.com/imanchalsingh/File-Sharing-System/issues/81",
-      "prUrl": "https://github.com/imanchalsingh/File-Sharing-System/pull/92"
-    },
-    {
-      "repo": "LecturePulse",
-      "org": "rishima17",
-      "url": "https://github.com/rishima17/LecturePulse",
-      "description": "",
-      "technologies": [],
-      "issueUrl": "https://github.com/rishima17/LecturePulse/pulls?q=is%3Apr+is%3Aclosed+author%3AAshutoshDash1999"
-    },
-    {
-      "repo": "AI-Money-Mentor",
-      "org": "omroy07",
-      "url": "https://github.com/omroy07/AI-Money-Mentor",
-      "description": "",
-      "technologies": [],
-      "issueUrl": "https://github.com/omroy07/AI-Money-Mentor/pulls?q=is%3Apr+is%3Aclosed+author%3AAshutoshDash1999"
-    },
-    {
-      "repo": "Moddy_Player",
-      "org": "Neeraj-code-beep",
-      "url": "https://github.com/Neeraj-code-beep/Moddy_Player",
-      "description": "",
-      "technologies": [],
-      "issueUrl": "https://github.com/Neeraj-code-beep/Moddy_Player/pulls?q=is%3Apr+is%3Aclosed+author%3AAshutoshDash1999"
-    },
-    {
-      "repo": "ai-agent-automation",
-      "org": "vmDeshpande",
-      "url": "https://github.com/vmDeshpande/ai-agent-automation",
-      "description": "",
-      "technologies": [],
-      "issueUrl": "https://github.com/vmDeshpande/ai-agent-automation/pulls?q=is%3Apr+is%3Aclosed+author%3AAshutoshDash1999"
-    },
-    {
-      "repo": "Agronavis-AI-Farm-Assistant",
-      "org": "jpdevhub",
-      "url": "https://github.com/jpdevhub/Agronavis-AI-Farm-Assistant",
-      "description": "",
-      "technologies": [],
-      "issueUrl": "https://github.com/jpdevhub/Agronavis-AI-Farm-Assistant/pulls?q=is%3Apr+is%3Aclosed+author%3AAshutoshDash1999"
-    }
-  ],
-  "clientWork": [
-    {
-      "title": "Abinash Dash's Portfolio",
-      "description": "Portfolio for full-stack developer with PM experience.",
-      "technologies": ["NextJS", "Tailwind CSS", "Typescript", "Motion"],
-      "url": "https://abinash-dash.vercel.app"
-    },
-    {
-      "title": "Dibyajyoti Mahuri's Portfolio",
-      "description": "Portfolio for full-stack developer, following minimalist design.",
-      "technologies": ["NextJS", "Tailwind CSS", "Typescript"],
-      "url": "https://v3.dibyajyoti.dev"
-    },
-    {
-      "title": "Biswajit Dash's Portfolio",
-      "description": "Portfolio for backend dev, following hacker theme.",
-      "technologies": ["NextJS", "Tailwind CSS", "Shadcn UI", "Typescript"],
-      "url": "https://biswajit-dash-portfolio.byteknottechnology.workers.dev"
-    },
-    {
-      "title": "S Barik & Co",
-      "description": "Portfolio for accountant and bookeeping",
-      "technologies": [
-        "NextJS",
-        "Tailwind CSS",
-        "Shadcn UI",
-        "Typescript",
-        "Vercel",
-        "React Lenis"
-      ],
-      "url": "https://soumya-barik-portfolio.vercel.app"
-    },
-    {
-      "title": "Roshni Satpathy's Portfolio",
-      "description": "Portfolio website for Roshni Satpathy as Designer.",
-      "technologies": [
-        "NextJS",
-        "Shadcn UI",
-        "Tailwind CSS",
-        "Typescript",
-        "Firebase",
-        "Netlify",
-        "Motion"
-      ],
-      "url": "https://hi-i-am-roshni.netlify.app"
-    },
-    {
-      "title": "Samvaad Sathi",
-      "description": "Samvaad Sathi is a platform for the Barabari Collective for interview preparation.",
-      "technologies": ["NextJS", "Daisy UI", "Tailwind CSS", "Typescript"],
-      "url": "https://samvaad-sathi.barabaricollective.org"
-    },
-    {
-      "title": "Suraj Roy's Portfolio",
-      "description": "Portfolio website for Suraj Roy as Designer.",
-      "technologies": [
-        "NextJS",
-        "Shadcn UI",
-        "Tailwind CSS",
-        "Typescript",
-        "Appwrite",
-        "Motion",
-        "Vercel"
-      ],
-      "url": "https://roydesign.in"
-    },
-    {
-      "title": "ICCCT 2023",
-      "description": "Official website for the ICCCT 2023 conference.",
-      "technologies": ["NextJS", "Chakra UI", "Typescript"],
-      "url": "https://iccct-2023.vercel.app"
-    }
-  ],
   "techSkills": [
     { "name": "React", "category": "Frontend" },
     { "name": "Next.js", "category": "Frontend" },
@@ -288,26 +115,6 @@
     "title": "Available for Next Big Opportunity",
     "description": "Open to collaborating on frontend development, UI engineering, React/Next.js applications, and performance-focused web builds or simple AI projects. If you have a project in mind, feel free to reach out."
   },
-  "reviews": [
-    {
-      "clientName": "Roshni Satpathy",
-      "role": "Designer",
-      "review": "I had the pleasure of working with Ashutosh Dash as his client, and I was truly impressed with his expertise in Frontend Development, React, and JavaScript. He has a great eye for detail, communicates clearly, and always delivers high-quality work on time. Ashutosh not only understood the requirements quickly but also suggested valuable improvements, making the final outcome even better. His mix of technical skill and problem-solving ability makes him a reliable and talented UI/Frontend Developer I would highly recommend.",
-      "linkedin": "https://www.linkedin.com/in/roshnisatpathy"
-    },
-    {
-      "clientName": "Ramanujam Gond",
-      "role": "Frontend Developer at Bookingjini",
-      "review": "Ashutosh possesses a rare combination of technical expertise and creative problem-solving abilities that make him a standout developer. His proficiency in React, JavaScript, and UI development is truly commendable, and he consistently demonstrated a strong command over various front-end stacks. One of Ashutosh's standout qualities is his proactive involvement in open-source contributions. Not only did he actively contribute to open-source projects, but he also played a crucial role in fostering a culture of open-source engagement within our team at Bookingjini. His efforts not only enhanced his own skills but also benefited the broader developer community. Ashutosh's commitment to delivering high-quality solutions is unmatched. I wholeheartedly recommend him for any front-end role, and I'm confident he will excel in his new position.",
-      "linkedin": "https://www.linkedin.com/in/ramanujamgond"
-    },
-    {
-      "clientName": "Suraj Roy",
-      "role": "Designer at Accenture",
-      "review": "I highly recommend my former college junior Ashutosh. I had the pleasure of working closely with him on numerous projects during our time together in college. Not only did we collaborate effectively as colleagues, but I also had the opportunity to be a client for one of our projects, where he played a crucial role in developing my portfolio. Ashutosh possesses exceptional web development skills, consistently delivering high-quality work on all our projects. His proficiency in frontend technologies is impressive and his ability to turn ideas into functional and aesthetically pleasing web applications is commendable. Moreover, his soft skills are equally impressive. He is an excellent communicator, a dependable team player, and has a strong work ethic. His dedication to meeting deadlines and his willingness to go the extra mile to ensure client satisfaction make him an asset to any team. I have no doubt that he will continue to excel in his role and contribute significantly to the success of the company. He is not only a talented developer but also a person of integrity and professionalism. I wholeheartedly endorse him and believe he will be a valuable addition to any organization fortunate enough to have him on board.",
-      "linkedin": "https://www.linkedin.com/in/suraj-roy-721729203"
-    }
-  ],
   "socialLinks": [
     {
       "platform": "GitHub",
@@ -330,22 +137,22 @@
       {
         "title": "What kind of roles are you looking for?",
         "icon": "asterisk",
-        "content": "I am seeking frontend-focused roles where I can work with React, Next.js, and modern UI frameworks. I enjoy building clean, scalable interfaces and would be a strong fit for teams that value quality engineering, thoughtful design, and ownership."
+        "content": "I'm looking for Frontend or Software Development Engineer roles where I can build production web apps with React.js, Next.js, and TypeScript. I have 2+ years of experience shipping client-facing products at BeyondIRR. I'd fit best on a team where I can own features end to end, work directly with stakeholders, and help with delivery and code quality."
       },
       {
         "title": "How do you approach problem-solving?",
         "icon": "headphones",
-        "content": "I break down problems into smaller components, analyze edge cases, and evaluate trade-offs before committing to a solution. I value clarity, maintainability, and predictable outcomes. I also rely heavily on data—profiling tools, performance metrics, and user insights—to guide optimizations."
+        "content": "I start by understanding the actual requirement, often directly from the client, and then break it into small, shippable pieces. For production issues I reproduce the bug, find the root cause, and fix it without side effects. That's how I resolved complex frontend bugs, strengthened auth token security, and cut page load times on high-traffic pages."
       },
       {
         "title": "What strengths do you bring to a development team?",
         "icon": "settings",
-        "content": "My strengths include strong UI/UX intuition, deep understanding of React and component architecture, clean code practices, and an ability to communicate clearly with designers, PMs, and backend engineers. I’m proactive, detail-oriented, and comfortable owning end-to-end delivery."
+        "content": "I bring solid frontend skills (React, Next.js, TypeScript, Redux Toolkit, RTK Query, Tailwind CSS) along with delivery experience. At BeyondIRR I lead frontend sprint planning and capacity estimation, which helped the team hit a 100% on-time delivery rate. I also work directly with clients to gather requirements and handle critical production issues."
       },
       {
         "title": "How do you ensure code quality and maintainability?",
         "icon": "star",
-        "content": "I rely on consistent coding standards, reusable components, proper file structures, and strict type-safety when possible. I write clear documentation, perform thorough code reviews, and optimize for readability without compromising performance."
+        "content": "I review and approve production pull requests and enforce coding standards and best practices, which has reduced post-deployment bugs. I keep code type-safe with TypeScript and build reusable, component-based UIs. I also maintain CI/CD pipelines across several client codebases, which improved deployment reliability by 7% and made migrations smoother."
       }
     ]
   }
